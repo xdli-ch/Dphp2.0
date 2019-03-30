@@ -8,6 +8,9 @@
 ### 要求
 php >= 7.0
 
+### 安装使用
+composer install
+
 ### 简介
 单一入口为 index.php
 
