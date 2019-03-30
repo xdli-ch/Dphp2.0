@@ -1,0 +1,28 @@
+{extends file="layout.html"}
+
+{block name="main"}
+<div class="container-fluid">
+  <div class="row justify-content-center">
+
+    <aside class="main-sidebar">
+      <section class="sidebar">
+
+        <!-- Sidebar Menu -->
+        <ul class="sidebar-menu" data-widget="tree">
+              <li><a href="#" class=""><i class="fa fa-thumbs-o-up" aria-hidden="true">我的菜单</i></a></li>
+        </ul>
+        <!-- /.sidebar-menu -->
+      </section>
+    </aside>
+
+    <div class="body-content">
+      <div class="content-box">
+      {block name="content"}
+      {/block}
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+</style>
+{/block}

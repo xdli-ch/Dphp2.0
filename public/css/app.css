@@ -1,0 +1,187 @@
+*{
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.navbar-brand>img {
+    display: inline-block;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .32rem;
+    padding-bottom: .32rem;
+    margin-right: 1rem;
+    font-size: 1.125rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+@media (min-width: 768px){
+    .navbar-expand-md .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+}
+
+.navbar-collapse {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+@media (min-width: 768px){
+    .navbar-expand-md .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .navbar-expand-md, .navbar-expand-md .navbar-nav {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+    }
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar{
+    padding-left: 8px;
+    padding-right: 8px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    height: 60px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.04);
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+}
+
+#navbarSupportedContent{
+    line-height: 56px;
+}
+
+/*管理员小图标显示*/
+.group-master-a{
+    margin-right: 2px;
+    display: block;
+    float: left;
+    width: 20px;
+    height: 18px;
+    text-align: center;
+    padding-top: 20px !important;
+}
+
+.group-master-a i{
+
+    margin: 0 auto;
+    display: block;
+    width: 13px;
+    height: 16px;
+    padding: 0;
+    outline: 0;
+    font-style: italic;
+    text-align: center;
+    line-height: 39px;
+    font-size: 14px;
+}
+.icon-group-master {
+    background-position: 0 -411px;
+    background-image: url('/public/images/relicons-scb7283a45e.png');
+    background-repeat: no-repeat;
+}
+
+#navbarDropdown:hover{
+    text-decoration:none;
+}
+.dropdown-menu.dropdown-menu-right{
+    border-radius: 5px !important;
+}
+.dropdown-menu.dropdown-menu-right a{
+    margin-left: 10px;
+}
+.dropdown-menu.dropdown-menu-right a:hover{
+    text-decoration:none;
+}
+
+
+/*footer*/
+.footer{
+    color: #111 !important;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    font-size: 15px;
+    color: #535886;
+    background: rgba(220,229,239,1);
+}
+@media (max-width: 600px){
+    .footer{
+        height: 40px;
+        width: 100%;
+        line-height: 40px;
+        font-size: 13px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+
+@media (min-width: 768px){
+    .text-md-right {
+        text-align: right!important;
+    }
+}
+
+.col-form-label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.6;
+}
+
+.red {
+    color: red;
+    padding-right: 5px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn{
+    border-radius: .3rem !important;
+}
+
+a:hover{
+    text-decoration: none;
+}
